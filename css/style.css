@@ -7,91 +7,88 @@
 body {
   font-family: Inter, sans-serif;
   font-size: 18px;
-}
-.consulting-container {
-  max-width: 700px;
-  margin: 0 auto;
-  font-family: "Inter", sans-serif;
-  font-size: 18px;
-  line-height: 1.46;
   color: #7d7d7d;
 }
-.consulting-img {
-  margin-bottom: 37px;
-  width: 100%;
-}
-.consulting-title {
-  font-family: Poppins, sans-serif;
+.header {
+  color: #37393f;
   font-size: 30px;
   font-style: normal;
   font-weight: 600;
   line-height: 1.27;
-  text-transform: capitalize;
-  color: #37393f;
   margin-bottom: 13px;
+  text-align: center;
 }
-.consulting-container p {
-  font-family: Inter;
-  font-size: 18px;
-  line-height: 1.46;
-  margin: 0 auto 40px;
+.container {
+  padding: 50px 15px;
+  max-width: 722px;
+  margin: 0 auto;
 }
-.consulting-subtitle {
+.consulting-img {
+  max-width: 100%;
+  margin-bottom: 37px;
+}
+.consulting-title,
+.consulting-subtitle,
+.benefits-title,
+.subtitle-benefits {
   font-family: Poppins, sans-serif;
-  font-size: 20px;
+}
+.consulting-title {
+  color: #37393f;
+  font-size: 30px;
   font-style: normal;
   font-weight: 600;
   line-height: 1.27;
+  margin-bottom: 13px;
+}
+.consulting-text {
+  line-height: 1.46;
+  margin-bottom: 40px;
+  max-width: 563px;
+}
+.consulting-subtitle {
   color: #6b77e5;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.27;
   margin-bottom: 12px;
 }
-.benefit-container {
-  max-width: 700px;
-  margin: 0 auto;
+.benefits {
   font-size: 0;
-  font-family: "Inter", sans-serif;
-  font-size: 18px;
-  line-height: 1.46;
-  color: #7d7d7d;
+  margin-bottom: 48px;
 }
-.benefit-img {
-  width: 49%;
-  vertical-align: top;
+.img-benefits {
+  width: 331px;
+  margin-right: 29px;
+}
+.content-benefits {
   display: inline-block;
+  width: 332px;
+  font-size: 18px;
 }
-.benefit-container h2 {
+.benefits-title {
   color: #37393f;
-  font-family: Poppins, sans-serif;
   font-size: 25px;
   font-weight: 600;
-  line-height: 1.65;
+  line-height: 1.27;
   margin-bottom: 15px;
 }
-.benefit-content {
-  width: 49%;
-  vertical-align: top;
-  display: inline-block;
-}
-.benefit-content h3 {
+.subtitle-benefits {
   color: #40ddb6;
-  margin: 0 auto 20px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 23px;
 }
-.benefit-content li {
-  margin: 0 auto 30px;
+.list-benefits li {
+  margin-bottom: 35px;
 }
 .jewellery-block {
   color: #474747;
   font-family: "Inter";
   font-size: 20px;
-  font-style: normal;
   line-height: 1.8;
-  max-width: 700px;
-  margin: 0 auto 100px;
 }
 .jewellery-container {
-  display: inline-block;
-  max-width: 563px;
-  margin-right: 38px;
 }
 .jewellery-content h3 {
   color: #d06b00;
@@ -103,14 +100,14 @@ body {
   color: #0e333d;
   font-family: "DM Serif Text", serif;
   font-size: 59px;
-  font-style: normal;
   line-height: 1.46;
   margin-bottom: 25px;
-  text-transform: capitalize;
+}
+.jewellery-content p {
+  max-width: 563px;
 }
 .jewellery-img {
   display: inline;
-  vertical-align: top;
 }
 .jewellery-img-first {
   display: inline-block;
@@ -122,4 +119,13 @@ body {
   display: inline-block;
   height: 518px;
   width: 273px;
+}
+.footer {
+  color: #37393f;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.27;
+  margin-bottom: 13px;
+  text-align: center;
 }
