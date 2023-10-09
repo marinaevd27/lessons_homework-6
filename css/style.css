@@ -115,7 +115,8 @@ body {
   max-width: 563px;
 }
 .jewellery-img {
-  display: inline;
+  display: inline-block;
+  vertical-align: top;
 }
 .jewellery-img-first {
   display: inline-block;
