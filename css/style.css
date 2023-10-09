@@ -83,10 +83,9 @@ body {
   margin-bottom: 35px;
 }
 .jewellery-block {
-  color: #474747;
-  font-family: "Inter";
-  font-size: 20px;
-  line-height: 1.8;
+  padding: 50px 15px;
+  max-width: 1199px;
+  margin: 0 auto;
 }
 .jewellery-container {
 }
@@ -94,6 +93,12 @@ body {
   color: #d06b00;
   font-size: 28px;
   margin-bottom: 13px;
+}
+.jewellery-content p {
+  color: #474747;
+  font-family: Inter;
+  font-size: 20px;
+  line-height: 1.8;
 }
 
 .jewellery-content h1 {
